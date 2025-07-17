@@ -40,7 +40,7 @@ This daemon scans your home directory for `.DS_Store` files and updates them, so
 
 ## How It Works
 
-This tool uses [`ds_store`](https://github.com/dmgbuild/ds_store) under the hood to manipulate Finder metadata files.
+This tool uses [`ds_store`](https://github.com/dmgbuild/ds_store)  to manipulate Finder metadata files.
 
 Each run of the daemon:
 - Scans your home directory for `.DS_Store` files (skipping unreadable paths)
