@@ -44,7 +44,7 @@ This tool uses [`ds_store`](https://github.com/dmgbuild/ds_store)  to manipulate
 
 Each run of the daemon:
 - Scans your home directory for `.DS_Store` files (skipping unreadable paths)
-- Updates them to use **List View** as the default (`icnv` ➜ `Nlsv`)
+- Updates them to use **List View** as the default
 - Logs output to:  
   `/tmp/finder_listview_enforcer_daemon.stdout.log`
 
